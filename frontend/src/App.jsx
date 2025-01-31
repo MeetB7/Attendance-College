@@ -1,8 +1,11 @@
 import React from 'react'
-
+import AttendanceTable from './AttendanceTable'
+import jsonData from '../public/output.json';
 const App = () => {
   return (
-    <div className=' text-3xl'>App</div>
+   <>
+     <AttendanceTable data={jsonData} />
+   </>
   )
 }
 
