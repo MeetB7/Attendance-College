@@ -1,11 +1,12 @@
 import React from 'react'
-import ImageUpload from './components/ImageUpload'
+import AttendanceTable from './AttendanceTable'
+import jsonData from '../public/output.json';import ImageUpload from './components/ImageUpload'
 
 const App = () => {
   return (
-    <div>
-      <ImageUpload />
-    </div>
+   <>
+     <AttendanceTable data={jsonData} />
+   </>
   )
 }
 
