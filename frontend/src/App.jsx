@@ -1,8 +1,11 @@
 import React from 'react'
+import ImageUpload from './components/ImageUpload'
 
 const App = () => {
   return (
-    <div className=' text-3xl'>App</div>
+    <div>
+      <ImageUpload />
+    </div>
   )
 }
 
